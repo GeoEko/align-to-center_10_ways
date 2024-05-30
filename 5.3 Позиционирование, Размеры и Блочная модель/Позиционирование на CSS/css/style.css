@@ -1,0 +1,28 @@
+/* 
+position: static, relative, absolute, fixed, sticky
+
+top
+left
+right
+bottom
+
+z-index
+*/
+.layer1 {
+  /* Относительное позиционирование */
+  position: relative;
+  /* left: 2em; */
+  background: #ddd;
+
+  height: 200px;
+}
+.layer2 {
+  /* Абсолютное позиционирование */
+  position: absolute;
+  /* Положение от нижнего края */
+  /* top: 50px;  */
+  bottom: 1rem;
+  right: 1rem;
+  /* Положение от правого края */
+  /* left: 50px; */
+}

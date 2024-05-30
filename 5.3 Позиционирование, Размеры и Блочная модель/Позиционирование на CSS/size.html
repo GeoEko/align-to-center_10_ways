@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="size.css" />
+    <title>Размеры: высота и ширина</title>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor error nam unde? Quae repellat tempora ut consectetur
+      porro. Adipisci reiciendis sit laborum labore mollitia, expedita, natus
+      reprehenderit ab id voluptatum dolores eaque corrupti est magni cumque
+      quis dolorem Lorem ipsum dolor error nam unde? Quae repellat tempora ut
+      consectetur porro. Adipisci reiciendis sit laborum labore mollitia,
+      expedita, natus reprehenderit ab id voluptatum dolores eaque corrupti est
+      magni cumque quis dolorem quis dolorem Lorem ipsum dolor error nam unde?
+      Quae repellat tempora ut consectetur porro. Adipisci reiciendis sit
+      laborum labore mollitia, expedita, natus reprehenderit ab id voluptatum
+      dolores eaque corrupti est magni cumque quis dolorem
+    </p>
+    <style>
+      a.first_letter_not_work:first-letter {
+        text-transform: uppercase;
+
+        color: red;
+      }
+    </style>
+
+    Html:
+
+    <a class="first_letter_not_work" href="#"
+      >этот текст маленькой первой буквой.</a
+    >
+    Css:
+
+    <style>
+      a.first_letter_work:first-letter {
+        text-transform: uppercase !important;
+
+        color: red;
+      }
+
+      a.first_letter_work {
+        display: inline-block;
+      }
+    </style>
+
+    Html:
+
+    <a class="first_letter_work" href="#"
+      >этот текст маленькой первой буквой.</a
+    >
+  </body>
+</html>

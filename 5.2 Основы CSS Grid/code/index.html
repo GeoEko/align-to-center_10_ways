@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Всплывающие подсказки</title>
+</head>
+
+<body>
+   <h2>Модуль</h2>
+   <ul>
+      <li mytitle="Первая скрытая подсказка, которая появляется при наведении на текст.">Text 1</li>
+
+      <li mytitle="Тут скрывается вторая подсказка">Text 2</li>
+      <li title="Подсказка скрытая в третьем блоке">Text 3</li>
+   </ul>
+   <span class="tooltip" data-tooltip="I'm small tooltip. Don't kill me!">Hover me!</span>
+   <div><span class="tooltip"
+         data-tooltip="Первая скрытая подсказка, которая появляется при наведении на текст.">Подсказка</span>
+   </div>
+   <abbr title="I'm small tooltip. Don't kill me!">Hover me!</abbr>
+</body>
+
+</html>

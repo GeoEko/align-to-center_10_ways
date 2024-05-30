@@ -1,0 +1,104 @@
+.parent {
+  width: 300px;
+  height: 300px;
+  background-color: #242424;
+  margin-bottom: 10px;
+}
+.child {
+  background: orange;
+  width: 100px;
+  height: 100px;
+}
+/* Метод 1 */
+/* .p1 {
+  position: relative;
+} */
+/* .c1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+/* Метод 2 */
+/* .p1 {
+  position: relative;
+} */
+.c1 {
+  /* position: absolute; */
+  /* top: 0;bottom: 0;right: 0;left: 0; */
+  /* top: 10px;
+  left: 20px;
+  right: 20px;
+  bottom: 10px;border: 5px solid green; */
+  /* margin: auto; */
+}
+/* Метод 3 */
+/* .p1 {
+  position: relative;
+} */
+/* .c1 {
+  position: absolute;
+  inset: 0;
+  inset: 10px 20px 10px 20px; /*Сокращенная форма для  top, right, bottom, left,
+  margin: auto;
+} */
+
+/* Метод 4a */
+/* .p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center; /*justify-content: center; и align-items: center;-вместе (выравнивание по горизонтали и вертикали одновременно)
+}
+.c1 {
+  
+} */
+/* Метод 4b */
+/* .p1 {
+  display: flex;
+  justify-content: center;
+}
+.c1 {
+  align-self: center;
+} */
+/* Метод 5 */
+/* .p1 {
+  display: flex;
+}
+.c1 {
+  margin: auto;
+} */
+/* Метод 6a */
+/* .p1 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+}
+.c1 {
+} */
+/* Метод 6b */
+/* .p1 {
+  display: grid;
+  justify-content: center;
+}
+.c1 {
+  align-self: center;
+} */
+/* Метод 7 */
+/* .p1 {
+  display: grid;
+}
+.c1 {
+  align-self: center;
+  justify-self: center;
+  place-self: center;/*justify-self: center; и align-self: center;-вместе (выравнивание по горизонтали и вертикали одновременно)
+} */
+
+/* Метод 8 */
+.p1 {
+  display: grid;
+}
+.c1 {
+  margin: auto;
+}
